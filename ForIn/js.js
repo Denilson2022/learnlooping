@@ -2,16 +2,17 @@ const família = [
     {
         nome: 'Denilson', 
         papel: 'noivo', 
-        profissão: 'advogado'
+        profissao: 'advogado'
     },
     {
         nome: 'Ellen', 
         papel: 'noiva', 
-        profissão: 'nutricionista'
+        profissao: 'nutricionista'
     }
    ]
 
 
+
 for (let pessoa in família){
- console.log(família[pessoa].nome); 
+ console.log(família[pessoa].profissao);
 }

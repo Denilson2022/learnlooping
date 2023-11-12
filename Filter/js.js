@@ -14,7 +14,7 @@ const minhaCasaTem = [
     'cama'
 ]
 
-const letra1 = item => item[0] === 'c' && item[2] === 'd'
+const letra1 = item => item[0] === 'c' && item[2] === 'm'
 
 const letraC = minhaCasaTem.filter(letra1)
 

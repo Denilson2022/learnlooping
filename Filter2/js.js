@@ -15,9 +15,10 @@ const família = [
   const nom = família.filter(value => {
     if(value.nome == 'Denilson'){ 
         return value
-} if (value.nome == 'Ellen') return value
+} else if (value.nome == 'Ellen'){ return value
 
    }
-)
+}
+  )
 
-   console.log(nom); 
+   console.log(nom);
